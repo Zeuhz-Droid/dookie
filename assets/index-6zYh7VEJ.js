@@ -331,7 +331,7 @@ Error generating stack: `+i.message+`
     `}
 `;function G0(){return w.jsx(J0,{id:"how-to-buy",children:w.jsxs(Ja,{children:[w.jsxs(V0,{children:[w.jsx(xi,{}),w.jsx(Se,{color:"#1F1F1F",font:"Fredoka, sans-serif",children:"How to"}),w.jsx(Se,{font:"Fredoka, sans-serif",children:" Buy"}),w.jsx(xi,{})]}),w.jsxs(X0,{children:[w.jsxs(jo,{children:[w.jsxs(qt,{children:[w.jsx(Pt,{type:"poop",src:z0}),w.jsxs(Ql,{children:[w.jsx(Se,{type:"text",children:"create wallet"}),w.jsx("p",{children:"Download Phantom wallet or your wallet of choice from the App Store or Google Play store for free"})]})]}),w.jsxs(qt,{children:[w.jsx(pr,{move:"0, 50%",children:w.jsx(Pt,{src:$0,type:"arrow",alt:"right point arrow"})}),w.jsx(pr,{move:"-50%, 0%",children:w.jsx(Pt,{off:"none",type:"arrow",src:F0,alt:"dookie icon"})})]})]}),w.jsxs(jo,{children:[w.jsx(Mc,{order:"1",children:w.jsxs(qt,{children:[w.jsx(Pt,{type:"poop",src:D0}),w.jsxs(Ql,{children:[w.jsx(Se,{type:"text",children:"Get $sol"}),w.jsx("p",{children:"If you don’t have any SOL, you can buy directly on Phantom wallet, transfer from another wallet, or buy on another exchange and send it to your wallet"})]})]})}),w.jsxs(qt,{children:[w.jsx(Mc,{order:"1",children:w.jsx(pr,{move:"0, 50%",children:w.jsx(Pt,{src:Y0,type:"arrow",alt:"left point arrow"})})}),w.jsx(pr,{move:"-50%, 0%",children:w.jsx(Pt,{off:"none",type:"arrow",src:H0,alt:"dookie icon"})})]})]}),w.jsx(jo,{children:w.jsxs(qt,{children:[w.jsx(Pt,{type:"poop",src:U0}),w.jsxs(Ql,{children:[w.jsx(Se,{type:"text",children:"Exchange for $DOOKIE"}),w.jsx("p",{children:"Trade $SOL for $DOOKIE on the following exchanges..."})]})]})}),w.jsxs(jo,{children:[w.jsx(qt,{}),w.jsx(qt,{children:w.jsx(pr,{move:"100%, 0",children:w.jsx(Pt,{type:"dookie",src:W0,alt:"dookie icon"})})})]})]})]})})}const K0="/dookie/assets/wavy-rectangle-e5UOAFed.png",zc="/dookie/assets/wavy-rectangle-mobile-boHynCNu.png",Z0="/dookie/assets/piechart-qA6UpUpr.png",q0=N.section`
   width: 100%;
-  min-height: 90vh;
+  min-height: 80vh;
   height: 70rem;
   position: relative;
 
@@ -351,7 +351,7 @@ Error generating stack: `+i.message+`
   position: absolute;
   z-index: -5;
 
-  transform: translateY(-25rem);
+  transform: translateY(-22rem);
 
   display: flex;
   align-items: center;
