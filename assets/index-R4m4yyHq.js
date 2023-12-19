@@ -337,7 +337,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     padding-top: 10%;
-    height: 75vh;
+    min-height: 75vh;
   }
 
   @media (max-width: 400px) {
@@ -359,6 +359,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     background: url(${zc}) no-repeat top/contain;
+    transform: translateY(-15%);
     height: 85vh;
   }
 
