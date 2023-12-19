@@ -190,7 +190,7 @@ Error generating stack: `+i.message+`
   font-size: inherit;
   font-weight: inherit;
   text-decoration: none;
-`;function R0(){return E.jsx(Ya,{children:E.jsxs(B0,{id:"home",children:[E.jsx(I0,{}),E.jsxs(L0,{children:[E.jsxs(_0,{children:[E.jsx("p",{children:"Dookie is the embodiment of life’s messy bits, laughing in the face of the “unmentionables,” and spreading joy with every hilarious, nonsensical move"}),E.jsx(j0,{type:"button",children:E.jsx(O0,{children:"buy now"})})]}),E.jsx(T0,{src:P0,alt:"golden turd"})]})]})})}const Ne=z.span`
+`;function R0(){return E.jsx(B0,{id:"home",children:E.jsxs(Ya,{children:[E.jsx(I0,{}),E.jsxs(L0,{children:[E.jsxs(_0,{children:[E.jsx("p",{children:"Dookie is the embodiment of life’s messy bits, laughing in the face of the “unmentionables,” and spreading joy with every hilarious, nonsensical move"}),E.jsx(j0,{type:"button",children:E.jsx(O0,{children:"buy now"})})]}),E.jsx(T0,{src:P0,alt:"golden turd"})]})]})})}const Ne=z.span`
   ${e=>`color: ${e.color?e.color:"#BA7043"};`}
 
   ${e=>e.font&&`font-family: ${e.font};`}
@@ -230,7 +230,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     height: max-content;
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: -3rem;
   }
 `,J0=z.div`
