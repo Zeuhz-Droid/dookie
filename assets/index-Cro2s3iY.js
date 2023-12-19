@@ -327,7 +327,8 @@ Error generating stack: `+i.message+`
     `}
 `;function G0(){return w.jsx(Y0,{id:"how-to-buy",children:w.jsxs(Ya,{children:[w.jsxs(V0,{children:[w.jsx(xi,{}),w.jsx(Se,{color:"#1F1F1F",font:"Fredoka, sans-serif",children:"How to"}),w.jsx(Se,{font:"Fredoka, sans-serif",children:" Buy"}),w.jsx(xi,{})]}),w.jsxs(X0,{children:[w.jsxs(jo,{children:[w.jsxs(qt,{children:[w.jsx(Pt,{type:"poop",src:z0}),w.jsxs(Ql,{children:[w.jsx(Se,{type:"text",children:"create wallet"}),w.jsx("p",{children:"Download Phantom wallet or your wallet of choice from the App Store or Google Play store for free"})]})]}),w.jsxs(qt,{children:[w.jsx(pr,{move:"0, 50%",children:w.jsx(Pt,{src:$0,type:"arrow",alt:"right point arrow"})}),w.jsx(pr,{move:"-50%, 0%",children:w.jsx(Pt,{off:"none",type:"arrow",src:F0,alt:"dookie icon"})})]})]}),w.jsxs(jo,{children:[w.jsx(Mc,{order:"1",children:w.jsxs(qt,{children:[w.jsx(Pt,{type:"poop",src:D0}),w.jsxs(Ql,{children:[w.jsx(Se,{type:"text",children:"Get $sol"}),w.jsx("p",{children:"If you don’t have any SOL, you can buy directly on Phantom wallet, transfer from another wallet, or buy on another exchange and send it to your wallet"})]})]})}),w.jsxs(qt,{children:[w.jsx(Mc,{order:"1",children:w.jsx(pr,{move:"0, 50%",children:w.jsx(Pt,{src:J0,type:"arrow",alt:"left point arrow"})})}),w.jsx(pr,{move:"-50%, 0%",children:w.jsx(Pt,{off:"none",type:"arrow",src:H0,alt:"dookie icon"})})]})]}),w.jsx(jo,{children:w.jsxs(qt,{children:[w.jsx(Pt,{type:"poop",src:U0}),w.jsxs(Ql,{children:[w.jsx(Se,{type:"text",children:"Exchange for $DOOKIE"}),w.jsx("p",{children:"Trade $SOL for $DOOKIE on the following exchanges..."})]})]})}),w.jsxs(jo,{children:[w.jsx(qt,{}),w.jsx(qt,{children:w.jsx(pr,{move:"100%, 0",children:w.jsx(Pt,{type:"dookie",src:W0,alt:"dookie icon"})})})]})]})]})})}const K0="/dookie/assets/wavy-rectangle-e5UOAFed.png",zc="/dookie/assets/wavy-rectangle-mobile-boHynCNu.png",Z0="/dookie/assets/piechart-qA6UpUpr.png",q0=N.section`
   width: 100%;
-  height: 90vh;
+  min-height: 90vh;
+  height: 70rem;
   position: relative;
 
   @media (max-width: 768px) {
@@ -339,13 +340,14 @@ Error generating stack: `+i.message+`
     height: 70vh;
   }
 `,b0=N.div`
-  background: url(${K0}) no-repeat center/cover;
-  height: 110vh;
+  background: url(${K0}) no-repeat top/cover;
+  min-height: 110vh;
+  height: 95rem;
   width: 100%;
   position: absolute;
   z-index: -5;
 
-  transform: translateY(-20%);
+  transform: translateY(-22%);
 
   display: flex;
   align-items: center;
@@ -365,8 +367,10 @@ Error generating stack: `+i.message+`
   justify-content: center;
   align-items: center;
   gap: 6rem;
+  padding-top: 5rem;
 
   @media (max-width: 768px) {
+    padding-top: 0rem;
     gap: 4rem;
   }
 `,t1=N.div`
@@ -402,4 +406,4 @@ Error generating stack: `+i.message+`
     order: -1;
     width: 60%;
   }
-`;function i1(){return w.jsx(q0,{id:"tokenomics",children:w.jsx(b0,{children:w.jsx(Ya,{children:w.jsxs(e1,{children:[w.jsxs(t1,{children:[w.jsx(xi,{}),w.jsxs("p",{children:[w.jsx(Se,{type:"heading",font:"Fredoka, sans-serif",children:"token"}),w.jsx(Se,{type:"heading",font:"Fredoka, sans-serif",color:"#1F1F1F",children:"omics"})]}),w.jsx(xi,{})]}),w.jsxs(n1,{children:[w.jsxs(Dc,{children:[w.jsx(r1,{children:"Total Supply:"}),w.jsx(Se,{type:"text",children:"69 Trillion $DOOKIE"})]}),w.jsx(o1,{src:Z0,alt:"piechart"}),w.jsxs(Dc,{children:[w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"50%"})," ",w.jsx("span",{children:" - Airdrop"})]}),w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"20%"})," ",w.jsx("span",{children:" - Marketing"})]}),w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"20%"}),w.jsx("span",{children:" - Contributors"})]}),w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"10%"})," ",w.jsx("span",{children:" - Liquidity"})]})]})]})]})})})})}function l1(){return w.jsxs(w.Fragment,{children:[w.jsx(Q0,{}),w.jsx(i1,{}),w.jsx(G0,{}),w.jsx(vv,{})]})}Ml.createRoot(document.getElementById("root")).render(w.jsx(Dn.StrictMode,{children:w.jsx(l1,{})}));
+`;function i1(){return w.jsxs(q0,{id:"tokenomics",children:[w.jsx(b0,{}),w.jsx(Ya,{children:w.jsxs(e1,{children:[w.jsxs(t1,{children:[w.jsx(xi,{}),w.jsxs("p",{children:[w.jsx(Se,{type:"heading",font:"Fredoka, sans-serif",children:"token"}),w.jsx(Se,{type:"heading",font:"Fredoka, sans-serif",color:"#1F1F1F",children:"omics"})]}),w.jsx(xi,{})]}),w.jsxs(n1,{children:[w.jsxs(Dc,{children:[w.jsx(r1,{children:"Total Supply:"}),w.jsx(Se,{type:"text",children:"69 Trillion $DOOKIE"})]}),w.jsx(o1,{src:Z0,alt:"piechart"}),w.jsxs(Dc,{children:[w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"50%"})," ",w.jsx("span",{children:" - Airdrop"})]}),w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"20%"})," ",w.jsx("span",{children:" - Marketing"})]}),w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"20%"}),w.jsx("span",{children:" - Contributors"})]}),w.jsxs("p",{children:[w.jsx(Se,{type:"text",children:"10%"})," ",w.jsx("span",{children:" - Liquidity"})]})]})]})]})})]})}function l1(){return w.jsxs(w.Fragment,{children:[w.jsx(Q0,{}),w.jsx(i1,{}),w.jsx(G0,{}),w.jsx(vv,{})]})}Ml.createRoot(document.getElementById("root")).render(w.jsx(Dn.StrictMode,{children:w.jsx(l1,{})}));
