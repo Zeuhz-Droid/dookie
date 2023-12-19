@@ -158,7 +158,6 @@ Error generating stack: `+i.message+`
   color: #1f1f1f;
   background: url(${yv}) center/cover;
 
-  height: 100vh;
   width: 100%;
   margin: 0 auto;
   align-items: center;
