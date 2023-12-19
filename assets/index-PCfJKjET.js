@@ -53,6 +53,10 @@ Error generating stack: `+i.message+`
   padding: 1rem;
 
   border-bottom: 2px solid #1f1f1f;
+
+  @media (max-width: 768px) {
+    height: 6rem;
+  }
 `,I0=N.img`
   &[src] {
     alt: "dookie logo";
@@ -112,7 +116,7 @@ Error generating stack: `+i.message+`
     height: 2rem;
     background-size: contain;
     position: absolute;
-    top: 1.8%;
+    top: 2.8%;
     right: 10%;
     z-index: 5;
   }
@@ -341,7 +345,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 400px) {
     background: url(${zc}) no-repeat top/contain;
-    top: 70%;
+    top: 60%;
     height: 110vh;
     width: 100vw;
   }
