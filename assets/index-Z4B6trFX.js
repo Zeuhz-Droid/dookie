@@ -345,7 +345,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 400px) {
     background: url(${zc}) no-repeat top/contain;
-    top: 60%;
+    top: 62%;
     height: 110vh;
     width: 100vw;
   }
