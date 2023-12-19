@@ -240,6 +240,7 @@ Error generating stack: `+i.message+`
   padding-top: 5%;
 
   @media (max-width: 768px) {
+    padding-top: 15%;
     height: max-content;
     margin-bottom: -3rem;
   }
