@@ -131,22 +131,22 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     font-size: 2.4rem;
-    line-height: 2.052rem;
+    line-height: 2.462rem;
   }
 
   ${e=>`color: ${e.color?e.color:"#BA7043"};`}
 
   ${e=>e.font&&`font-family: ${e.font};`}
 
+  ${e=>e.background&&it`
+      background-color: ${e.background};
+    `};
+
   ${e=>e.type==="text"&&it`
       font-size: 3.2rem;
       line-height: 3.283rem;
       text-transform: none;
       font-weight: 400;
-    `};
-
-  ${e=>e.background&&it`
-      background-color: ${e.background};
     `};
 
   ${e=>e.type==="heading"&&it`
@@ -188,7 +188,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     transform: translateY(0);
-    width: 94%;
+    width: 75%;
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -244,9 +244,13 @@ Error generating stack: `+i.message+`
   padding-top: 5%;
 
   @media (max-width: 768px) {
-    padding-top: 15%;
+    padding-top: 5%;
     height: max-content;
     margin-bottom: -3rem;
+  }
+
+  @media (max-width: 380px) {
+    padding-top: 15%;
   }
 `,V0=N.div`
   margin-bottom: 5rem;
@@ -323,6 +327,10 @@ Error generating stack: `+i.message+`
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+
+  @media (max-width: 768px) {
+    gap: 0.5rem;
+  }
 `,Mc=N.div`
   ${e=>e.order&&it`
       @media (min-width: 768px) {
@@ -336,7 +344,6 @@ Error generating stack: `+i.message+`
   position: relative;
 
   @media (max-width: 768px) {
-    padding-top: 10%;
     min-height: 75vh;
   }
 
@@ -375,8 +382,8 @@ Error generating stack: `+i.message+`
   padding-top: 5rem;
 
   @media (max-width: 768px) {
-    padding-top: 0rem;
-    gap: 4rem;
+    padding-top: 2rem;
+    gap: 1rem;
   }
 `,t1=N.div`
   display: flex;
@@ -393,14 +400,14 @@ Error generating stack: `+i.message+`
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
   }
 `,Dc=N.div`
   display: flex;
   flex-direction: column;
 
   @media (max-width: 768px) {
-    gap: 0.6rem;
+    gap: 0.4rem;
   }
 `,r1=N.p`
   @media (max-width: 768px) {
