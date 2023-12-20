@@ -383,7 +383,7 @@ Error generating stack: `+i.message+`
 
   @media (max-width: 768px) {
     padding-top: 2rem;
-    gap: 1rem;
+    gap: 2rem;
   }
 `,t1=N.div`
   display: flex;
